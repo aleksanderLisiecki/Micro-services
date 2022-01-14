@@ -1,0 +1,9 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                  xmlns:us="https://alisiecki.pp/internet-plans-soap">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <us:getInternetPlanRequest>
+            <us:numberOfGb>8</us:numberOfGb>
+        </us:getInternetPlanRequest>
+    </soapenv:Body>
+</soapenv:Envelope>
